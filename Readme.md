@@ -1,0 +1,3 @@
+# Exercices about PHP
+
+Hello, this repository was created while a was practicing php coding. So decide put my own exercices here creating this repository...
