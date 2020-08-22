@@ -5,7 +5,7 @@
     $subtracao = $x - $y;
     $multiplicacao = $x * $y;
     $divisao = $x/$y;
-    $resto = $X%$y;
+    $resto = $x%$y;
 
     echo "Soma de x e y corresponde a $soma <br/>";
     echo "Subtracao de x e y corresponde a $subtracao <br/>";
