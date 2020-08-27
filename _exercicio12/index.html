@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        input{
+            display: block;
+            margin: 10px;
+        }
+
+
+        input[type=radio]{
+            display:inline;
+        }
+
+        button{
+            margin-top: 10px;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <form method="get" action="script.php">
+        <label for="txtNome">Seu nome: <input type="text" name="name" id="txtNome"></label>
+        <label for="txtAnoNascimento">Sua data de nascimento: <input type="number" name="anoNascimento"
+                id="txtAnoNascimento"></label>
+        <label for="lblGender">Seu genero: <label for="genderMasc">Masculino <input type="radio" name="gender" value="Masculino" id="genderMasc"></label> | <label for="genderFem">Feminino<input
+            type="radio" name="gender" id="genderFem"></label> </label>
+<button type="submit">Enviar</button>
+    </form>
+</body>
+
+</html>
